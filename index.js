@@ -109,3 +109,7 @@ indexOf(searchElement, fromIndex);
 //includes() メソッドは、特定の要素が配列に含まれているかどうかを true または false で返す。
 includes(searchElement);
 includes(searchElement, fromIndex);
+
+
+//コールバック関数
+//他の関数に引数として渡される関数
