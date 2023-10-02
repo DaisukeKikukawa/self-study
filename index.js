@@ -81,3 +81,31 @@ numbers.forEach((number,index) => {
 
 //concat
 //配列の結合
+
+
+//findメソッド
+//findメソッドを呼び出した配列から、条件に合う配列内の最初の要素を返す
+
+
+
+//奇数を除外した数値を含む新しい配列を生成
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const filterEvenArray = (array) => {
+  return array.filter((value) => {
+    return value % 2 === 0;
+  });
+};
+console.log(filterEvenArray(numbers));
+
+
+//indexOfメソッド
+//indexOf() メソッドは引数に与えられた内容と同じ内容を持つ最初の配列要素の添字を返します。
+//存在しない場合は - 1 を返す。
+indexOf(searchElement);
+indexOf(searchElement, fromIndex);
+
+
+//includes
+//includes() メソッドは、特定の要素が配列に含まれているかどうかを true または false で返す。
+includes(searchElement);
+includes(searchElement, fromIndex);
